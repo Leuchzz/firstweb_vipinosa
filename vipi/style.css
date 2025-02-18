@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #181818; /* Dark background */
+    color: #fff; /* White text */
+}
+
+header {
+    background: #000; /* Black header */
+    color: #ff9900; /* Orange text */
+    padding: 15px 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #fff; /* White "hub" part */
+    background: #ff9900; /* Orange background */
+    padding: 5px 8px;
+    border-radius: 4px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.video {
+    background: #282828; /* Dark gray for video cards */
+    border: 1px solid #444;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    color: #ff9900;
+    font-weight: bold;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
